@@ -1,0 +1,18 @@
+package com.projet.itreclamation;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
+import org.springframework.scheduling.annotation.EnableAsync;
+
+@SpringBootApplication
+@EnableJpaAuditing
+@EnableAsync
+public class ItreclamationApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ItreclamationApplication.class, args);
+	}
+
+
+}
